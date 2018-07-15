@@ -1,0 +1,30 @@
+{
+  "name": "problem1",
+  "version": "1.0.0",
+  "description": "Project Euler problem 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgnacioRubio/ProjectEuler.git"
+  },
+  "keywords": [
+    "js",
+    "html",
+    "jquery",
+    "bootstrap",
+    "projecteuler"
+  ],
+  "author": "Ignacio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgnacioRubio/ProjectEuler/issues"
+  },
+  "homepage": "https://github.com/IgnacioRubio/ProjectEuler#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.2",
+    "jquery": "^3.3.1"
+  }
+}
