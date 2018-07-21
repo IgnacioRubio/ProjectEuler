@@ -8,6 +8,9 @@
 
         <!-- css: bootstrap -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+        <!-- css: own -->
+        <link rel="stylesheet" href="css/main.css">
     </head>
 
     <body>
@@ -29,7 +32,7 @@
         </nav>
               
         <!-- statement -->
-        <section>
+        <section class="padding-right-left-10px">
             <h2>Multiples of 3 and 5</h2>
 
             <h3>Problem 1</h3>
@@ -40,10 +43,19 @@
                 Find the sum of all the multiples of 3 or 5 below 1000.
             </p>
         </section>
+
+        <hr>
+
+        <!-- solution -->
+        <section class="padding-right-left-10px">
+            <p>Solution: <span id="sumSolution"></span></p>
+        </section>
     </body>
 
     <!-- dependencies: jQuery -->
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <!-- dependencies: bootstrap -->
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- dependencies: solution -->
+    <script src="js/solution.js"></script>
 </html>
