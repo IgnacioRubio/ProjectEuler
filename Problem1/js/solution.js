@@ -40,6 +40,7 @@ for (b = 1; b < 1000; b++) {
     }
 }
 
+// show solution
 $(document).ready(function(){
     $("#sumSolution").text(sumMultiples);
  });
